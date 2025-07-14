@@ -1,0 +1,11 @@
+{
+  "build": {
+    "env": {
+      "OPENAI_API_KEY": "sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+    },
+    "scripts": {
+      "install": "pip install -r requirements.txt && npm install",
+      "start": "node server.js"
+    }
+  }
+}
