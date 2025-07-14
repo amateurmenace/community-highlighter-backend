@@ -3,7 +3,7 @@ const router = express.Router();
 const { exec } = require('child_process');
 const path = require('path');
 
-const PYTHON_PATH = process.env.PYTHON_PATH || 'python3';
+const PYTHON_PATH = process.env.PYTHON_PATH || 'python'; // ← use python
 const OUTPUT_DIR = path.join(__dirname, 'outputs');
 
 // Helper to run Python scripts
